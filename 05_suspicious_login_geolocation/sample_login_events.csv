@@ -1,0 +1,21 @@
+event_id,user_id,timestamp_utc,ip_address,outcome,user_agent
+evt-001,alice,2026-10-20T08:00:00Z,8.8.8.8,success,Chrome / desktop
+evt-002,alice,2026-10-20T08:20:00Z,1.1.1.1,success,Chrome / desktop
+evt-003,alice,2026-10-20T19:00:00Z,1.1.1.1,success,Chrome / desktop
+evt-004,alice,2026-10-20T19:03:00Z,9.9.9.9,failure,Unknown browser
+evt-005,alice,2026-10-21T15:00:00Z,9.9.9.9,success,Firefox / laptop
+evt-006,bob,2026-10-20T07:00:00Z,208.67.222.222,success,Safari / mobile
+evt-007,bob,2026-10-20T07:40:00Z,4.2.2.2,success,Safari / mobile
+evt-008,bob,2026-10-20T08:10:00Z,192.168.1.10,success,Safari / mobile
+evt-009,bob,2026-10-21T12:00:00Z,4.2.2.2,success,Safari / mobile
+evt-010,carol,2026-10-20T04:00:00Z,9.9.9.9,success,Edge / desktop
+evt-011,carol,2026-10-20T04:55:00Z,9.9.9.9,success,Edge / desktop
+evt-012,carol,2026-10-20T05:10:00Z,2606:4700:4700::1111,success,Edge / desktop
+evt-013,carol,2026-10-20T05:15:00Z,not-an-ip,success,Edge / desktop
+evt-014,dave,2026-10-20T10:00:00Z,1.1.1.1,failure,Firefox / desktop
+evt-015,dave,2026-10-20T10:10:00Z,4.2.2.2,success,Firefox / desktop
+evt-016,dave,2026-10-20T12:00:00Z,4.2.2.2,success,Firefox / desktop
+evt-017,erin,2026-10-20T06:00:00Z,8.8.8.8,success,Chrome / desktop
+evt-018,erin,2026-10-20T06:20:00Z,2001:4860:4860::8888,success,Chrome / desktop
+evt-019,erin,2026-10-20T18:00:00Z,9.9.9.9,success,Chrome / desktop
+evt-020,erin,2026-10-20T18:20:00Z,9.9.9.9,success,Chrome / desktop

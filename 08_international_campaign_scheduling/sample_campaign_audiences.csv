@@ -1,0 +1,21 @@
+audience_id,visitor_ip,campaign,preferred_send_hour,timezone_override,opted_in
+A001,8.8.8.8,Product Launch,10,,yes
+A002,8.8.8.8,Newsletter,11,America/New_York,yes
+A003,1.1.1.1,Product Launch,10,,yes
+A004,9.9.9.9,Newsletter,9,,yes
+A005,208.67.222.222,Product Launch,10,Asia/Kuala_Lumpur,yes
+A006,8.8.4.4,Newsletter,11,,yes
+A007,1.0.0.1,Product Launch,10,,yes
+A008,149.112.112.112,Newsletter,10,,yes
+A009,64.6.64.6,Product Launch,10,,yes
+A010,80.80.80.80,Newsletter,10,,yes
+A011,94.140.14.14,Product Launch,10,,yes
+A012,1.1.1.1,Newsletter,15,Europe/London,yes
+A013,9.9.9.9,Product Launch,11,Asia/Tokyo,yes
+A014,8.8.8.8,Product Launch,9,,no
+A015,192.168.1.15,Newsletter,10,,yes
+A016,bad-ip-value,Newsletter,10,,yes
+A017,1.0.0.1,Newsletter,10,Mars/Olympus,yes
+A018,94.140.14.14,Newsletter,10,,no
+A019,4.2.2.2,Product Launch,10,,yes
+A020,208.67.222.222,Newsletter,18,,yes

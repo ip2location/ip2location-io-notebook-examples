@@ -1,0 +1,17 @@
+visitor_id,ip,preferred_language,preferred_currency,preferred_country,scenario
+V001,8.8.8.8,,,,Default country-based experience
+V002,1.1.1.1,,,,Different regional default
+V003,9.9.9.9,,,,German-language page
+V004,208.67.222.222,,,,French-language page
+V005,2001:4860:4860::8888,,,,IPv6 example
+V006,2606:4700:4700::1111,,,,Malay-language page
+V007,114.114.114.114,,,,Chinese-language page
+V008,8.26.56.26,,,,UK currency example
+V009,8.8.8.8,fr,EUR,,Explicit language and currency override
+V010,1.1.1.1,ms,MYR,,Personal preference overrides IP
+V011,9.9.9.9,,USD,,Currency-only override
+V012,192.168.1.10,ja,,,Private address: no API request
+V013,not-an-ip,,,,Invalid address: no API request
+V014,8.8.8.8,,,JP,Explicit market override
+V015,8.26.56.26,xx,ZZZ,,Unsupported preference falls back
+V016,1.1.1.1,,,SG,Selected market confirmed

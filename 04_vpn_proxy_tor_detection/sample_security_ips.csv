@@ -1,0 +1,11 @@
+case_id,label,ip_address
+web-001,Google Public DNS,8.8.8.8
+web-002,Cloudflare DNS,1.1.1.1
+web-003,Quad9 DNS,9.9.9.9
+web-004,OpenDNS,208.67.222.222
+web-005,Google IPv6 DNS,2001:4860:4860::8888
+web-006,Cloudflare IPv6 DNS,2606:4700:4700::1111
+web-007,Duplicate Google DNS,8.8.8.8
+web-008,Private network (skip),192.168.1.20
+web-009,Documentation address (skip),203.0.113.50
+web-010,Invalid IP (skip),999.999.999.999

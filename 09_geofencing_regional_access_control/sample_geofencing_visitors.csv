@@ -1,0 +1,27 @@
+visitor_id,visitor_ip,resource_id,scenario_note
+V001,8.8.8.8,global_news,Public access in demo
+V002,8.8.8.8,us_state_promo,California-only promo
+V003,1.1.1.1,regional_promo,Outside selected campaign markets
+V004,9.9.9.9,restricted_stream,Eligible country in demo
+V005,208.67.222.222,global_news,Proxy signal ignored by this policy
+V006,208.67.222.222,us_state_promo,"Country matches, but region does not"
+V007,8.26.56.26,regional_promo,Malaysia campaign market
+V008,8.26.56.26,global_news,"Repeated IP, different resource"
+V009,76.76.2.0,regional_promo,Singapore campaign market
+V010,149.112.112.112,restricted_stream,France campaign market
+V011,114.114.114.114,global_news,No country restriction
+V012,114.114.114.114,blocked_preview,Example blocked country
+V013,94.140.14.14,restricted_stream,Proxy signal requires review
+V014,4.2.2.2,us_state_promo,Missing region requires review
+V015,4.2.2.2,global_news,Missing region is irrelevant to global policy
+V016,192.168.1.10,global_news,Private IP not sent to API
+V017,not_an_ip,regional_promo,Invalid IP not sent to API
+V018,2001:4860:4860::8888,global_news,IPv6 example
+V019,2001:4860:4860::8888,restricted_stream,IPv6 outside allowed markets
+V020,64.6.64.6,blocked_preview,Unblocked country
+V021,64.6.64.6,us_state_promo,Country not on allowlist
+V022,45.90.28.0,global_news,Simulated lookup error
+V023,45.90.28.0,blocked_preview,Repeated simulated lookup error
+V024,185.228.168.9,restricted_stream,Proxy indicator unavailable
+V025,185.228.168.9,global_news,No proxy requirement
+V026,8.8.8.8,unknown_resource,Unknown policy goes to review

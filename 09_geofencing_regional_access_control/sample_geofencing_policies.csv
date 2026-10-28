@@ -1,0 +1,6 @@
+resource_id,resource_label,allowed_countries,blocked_countries,allowed_regions,proxy_handling,policy_note
+global_news,Global article preview,,,,ignore,Unrestricted demo content
+regional_promo,Malaysia & Singapore promotional landing page,MY|SG,,,review,Example campaign availability
+us_state_promo,Selected US states promotion,US,,US:California|US:New York,review,Region restrictions use region_name
+restricted_stream,Example licensed media preview,DE|FR|GB,,,review,Example policy; not legal advice
+blocked_preview,Country exclusion illustration,,CN|RU,,ignore,Example exclusion list only
